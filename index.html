@@ -35,6 +35,10 @@
             <td>show difference or changes of "file"</td>
         </tr>
         <tr>
+            <td>git commit --amend.</td>
+            <td>rename last commit</td>
+        </tr>
+        <tr>
             <td>git config --local alias.name "command"</td>
             <td>change name of command. It allows to create short kind of command</td>
         </tr>
@@ -66,16 +70,12 @@
             <td>get the same command with git checkout</td>
         </tr>
         <tr>
-            <td>git branch -m "branch"</td>
-            <td>get the same command with git checkout</td>
+            <td>git branch -m "old branch" "new branch"</td>
+            <td>rename branch</td>
         </tr>
         <tr>
             <td>git checkout -b "new_branch"</td>
             <td>create "new_branch"</td>
-        </tr>
-        <tr>
-            <td>git branch -m "new_name"</td>
-            <td>rename current branch</td>
         </tr>
         <tr>
             <td>git branch -D "branch"</td>
@@ -109,7 +109,9 @@
         </tr>
         <tr>
           <td>git rebase -i "branch"</td>
-          <td>get all commits from "branch" and use them for current one</td>
+          <td>get all commits from "branch" and use them for a current one</td>
+        </tr>
+        <tr>
           <td>git rebase -i HEAD~n</td>
           <td>rebase n commits from the current branch</td>
         </tr>
